@@ -114,3 +114,25 @@ esta el grafico en los apuntos, voy a agregar una imagen aca mas adelante.
 Por cada símbolo octal se pone su equivalente en binario
 
 se usan tres digitos de binario, por uno octal.
+
+### Octal a Hexadecimal
+
+- Hay que llevar a cabo un paso intermedio; es decir, pasar el número a decimal o binario y éste, por ultimo, a hexadecimal.
+
+- En enteros no hay problema con pasar de hex a decimal y despues pasar el decimal a binario.
+Pero si es un nro con fraccion va a dar error, en ese caso, pasa el nro 37 a binario escribiendo el equivalente octal de cada digito y agrupando ese resultado de a 4 digitos y reamplaza el digito hex como corresponde sumando ceros segun dicte la coma
+
+### Hexadecimal a Decimal
+
+- Se desarolla el polinomio equivalente, Teorema fundamental de la numeracion.
+
+### Hexadecimal a Octal
+
+- Hay que llevar a cabo un paso intermedio; es decir, pasar el número a decimal o binario y éste, por ultimo, a octal.
+
+## Resumen
+
+- `Cualquier sistema` para convertirlo a `decimal` --> Teorema fundamental de la numeracion.
+- `Octal` a `Decimal` y Viceversa --> `Paso intermedio a Binario`.
+- `Hexadecimal` u `octal` a `binario` --> Se toma cada símbolo se convierte a `binario` y se toman todos los  bits como si fuera un solo número.
+- `Hexadecimal` a `Octal` o viceversa --> `paso intermedio a binario` y despues a la base que corresponda. En octal se pasa a binario con la tabla BCO
